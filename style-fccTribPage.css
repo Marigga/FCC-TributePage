@@ -1,0 +1,60 @@
+
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: #F8F7FA;
+  width: 100%;
+  height: auto;
+}
+#title {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  background-color: #F8F7FA;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: cursive;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 1em;
+  line-height: 10%;
+  box-shadow: 2px 3px gray;
+}
+#name{
+  font-size: 3em;
+  font-family: arial;
+}
+#img-div {
+  grid-column: 1;
+  grid-row: 2 / 4;
+}
+#tribute-info {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  background-color: #F8F7FA;
+  font-size: 1.25em;
+  font-family: arial;
+  
+}
+#footer {
+  grid-column: 1/4;
+  grid-row: 4;
+  background-color: #F8F7FA;
+  border: 1px solid black;
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
+#img-caption{
+  text-align: center;
+  font-family: arial;
+}
